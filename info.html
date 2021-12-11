@@ -1,0 +1,75 @@
+<!--- Name  :Harshdeep singh --->
+<!--- StudentID:145872206 --->
+<!--- Email:hsingh760@myseneca.ca --->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link href="normalize.css" rel="stylesheet">
+    <title>Harshdeep singh</title>
+    <script src="js/info.js"></script>
+</head>
+
+<body>
+    <nav>
+        <div class="center">
+            <ul>
+                <a href="honesty.html">Honesty</a>
+                <a href="reflection.html">Reflection</a>
+                <a href="info.html">Information</a>
+            </ul>
+        </div>
+    </nav>
+    <header>INFORMATION</header>
+    <div id="info">
+        <form action="https://httpbin.org/post" method="post" name="signup">
+            First Name:
+            <input type="text" name="First Name" id="firstname" required="(A-z)" placeholder="First Name">
+            Must start with a cap and only alphabet allowed.
+            <br>
+            Last Name:
+            <input type="hidden" name="lastName" id="lastName" value="Singh" placeholder="Last Name">
+            Already submitted.
+            <br>
+            StudentID:
+            <input type="hidden" name="studentId" id="studentId" value="145872206" placeholder="StudentID">
+            Already submitted.
+            <br>
+            Username:
+            <input type="text" name="Username" id="username" placeholder="Username">
+            username must start with analphabet, must have at least 6 characters.
+            <br>
+            Password:
+            <input type="text" name="Password" id="password" placeholder="Password">
+            must be at least 6 characters long, must start with an alphabet, must have at least 1 digit and 1 uppercase.
+            <br>
+            Education Status:
+            <li>
+                <input type="radio" name="education" id="graduated" value=" Graduated">
+                Graduated
+            </li>
+            <li>
+                <input type="radio" name="education" id="currentenrolled" value="Current enrolled">
+                Current enrolled
+            </li>
+            <li>
+                <input type="radio" name="education" id="Did not graduate" value="didnotgraduate">
+                Did not graduate
+            </li>
+            Email:
+            <input type="email" name="Email" id="email" placeholder="Email">
+            <br>
+            Age:
+            <input type="number" name="Age" id="age" placeholder="Age">
+            must be in between 18-60
+            <br>
+            <input type="submit" placeholder="Sign up">
+        </form>
+    </div>
+    <footer>
+        Harshdeep singh <a href="https://github.com/akashbal/WEB222">Github link</a>
+    </footer>
+</body>
+
+</html>
